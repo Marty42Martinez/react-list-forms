@@ -9,7 +9,7 @@ const hexFromRGB = (rgb) => {
   return `#${hexFromColor(rgb.red)}${hexFromColor(rgb.green)}${hexFromColor(rgb.blue)}`;
 };
 
-Function Color({ name, rgb }) {
+function Color({ name, rgb }) {
   const hex = hexFromRGB(rgb);
 
   const colorStyle = {
