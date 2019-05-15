@@ -31,6 +31,24 @@ exports[`TextFormatter component renders a Text Formatter 1`] = `
     >
       Linux
     </option>
+    <option
+      key="Bolger"
+      value="Bolger"
+    >
+      Bolger
+    </option>
+    <option
+      key="Train"
+      value="Train"
+    >
+      Train
+    </option>
+    <option
+      key="Swamp Land"
+      value="Swamp Land"
+    >
+      Swamp Land
+    </option>
   </select>
   <input
     name="text"
