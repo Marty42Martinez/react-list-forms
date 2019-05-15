@@ -1,9 +1,9 @@
 import React from 'react';
-// import styles
+import styles from './Footer.css';
 
 export default function Footer() {
   return (
-    <footer className='holder'>
+    <footer className={styles.Footer}>
       <p>by Marty M.</p>
     </footer>
   );
