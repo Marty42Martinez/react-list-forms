@@ -27,7 +27,7 @@ export default class TextFormatter extends PureComponent {
   render() {
     const { text, formattedText, color, font } = this.state;
 
-    const fontOptions = ['Avatar', 'Banner', 'Alligator', 'Linux'].map(font => {
+    const fontOptions = ['Avatar', 'Banner', 'Alligator', 'Linux', 'Bolger', 'Train', 'Swamp Land'].map(font => {
       return <option key={font} value={font}>{font}</option>;
     });
 
