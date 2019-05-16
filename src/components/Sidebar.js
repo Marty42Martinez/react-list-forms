@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-//import styles
+import styles from './Sidebar.css';
 
 function Sidebar({ children }) {
   return (
-    <nav className="holder">
+    <nav className={styles.Sidebar}>
       {children}
     </nav>
   );
