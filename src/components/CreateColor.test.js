@@ -28,5 +28,15 @@ describe('CreateColor component', () => {
     expect(wrapper.state('color')).toEqual('#FF0000');
   });
 
+  it('handles submitting a new color', () => {
+    const submit = jest.fn();
+    const wrapper = shallow(<CreateColor addColor={submit} />);
+
+    wrapper.find('form').at(0).simulate('submit', {
+      preventDefault: jest.fn()
+    });
+
+    expect(submit).toHaveBeenCalledWith({ name: wrapper.state('name'), hex: wrapper.state('color') });
+  });
 
 });
