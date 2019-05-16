@@ -24,7 +24,7 @@ function Color({ name, hex }) {
     height: '0.8em'
   };
 
-  return(
+  return (
     <dl>
       <dt>Name</dt>
       <dd>{name || hex} <div style={colorStyle}></div></dd>
